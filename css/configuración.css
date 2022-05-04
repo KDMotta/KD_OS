@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+/* PALETA DE COLORES */
+
+:root
+{
+    --rosado-1: #F25EE8;
+    --rosado-2: #F1A7F2;
+    --morado: #D080F2;
+    --lila: #A79BF2;
+    --negro: #0F0F0F;
+}
