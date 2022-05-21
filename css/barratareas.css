@@ -44,6 +44,7 @@
     align-items: center;
     padding-left: 2rem;
     z-index: 8;
+    cursor: pointer;
 }
 
 .iconomenu img{
