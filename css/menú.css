@@ -1,0 +1,287 @@
+.menu{
+    width: 51rem;
+    height: 40rem;
+    background-color: var(--blanco);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: none;
+    justify-content: center;
+    position: absolute;
+    bottom: 7rem;
+    left: 2rem;
+}
+
+.activarmenu{
+    display: flex;
+}
+
+/*  BARRA SUPERIOR DE ACCIONES  */
+
+.arribarra{
+    width: 51rem;
+    height: 4.5rem;
+    background-color: var(--lila);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: -0.3rem;
+    padding: 0rem 3rem;
+}
+
+.arribarra img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1rem;
+}
+
+/*  VER TODAS LAS APLICACIONES   */
+
+.apps{
+    width: 42rem;
+    height: 3rem;
+
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    top: 8rem;
+    z-index: 2;
+}
+
+.apps p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--morado);
+}
+
+/*  MOSAICO DE APLICASIONES  */
+
+.mosaico{
+    width: 42rem;
+    height: 26rem;
+    margin-top: 11rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.chrome{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--rosa_claro);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chrome img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.ubuntu{
+    width: 16rem;
+    height: 8rem;
+    background-color: var(--rosa);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ubuntu img{
+    width: 12rem;
+    height: auto;
+}
+
+.after{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--rosa_claro);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.after img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.photoshop{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--rosa);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photoshop img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.word{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--rosa);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.word img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.excel{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--rosa_claro);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.excel img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.vscode{
+    width: 16rem;
+    height: 8rem;
+    background-color: var(--rosa);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vscode img{
+    width: 4.5rem;
+    height: auto;
+}
+
+.vscode p{
+    font-size: 2rem;
+    color: var(--blanco);
+}
+
+.illustrator{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--rosa_claro);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.illustrator img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.spotify{
+    width: 16rem;
+    height: 8rem;
+    background-color: var(--rosa_claro);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.spotify img{
+    width: 4.5rem;
+    height: auto;
+}
+
+.spotify p{
+    font-size: 2rem;
+    color: var(--blanco);
+}
+
+.figma{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--rosa);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.figma img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.xd{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--rosa_claro);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.xd img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.indesign{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--rosa);
+    border-radius: 1rem;
+    border: solid 0.3rem var(--morado);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.indesign img{
+    width: 5rem;
+    height: 5rem;
+}
