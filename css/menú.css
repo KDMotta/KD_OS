@@ -37,6 +37,7 @@
     width: 2.5rem;
     height: 2.5rem;
     margin: 1rem;
+    cursor: pointer;
 }
 
 /*  VER TODAS LAS APLICACIONES   */
@@ -50,6 +51,7 @@
     justify-content: flex-end;
     align-items: center;
     top: 8rem;
+    cursor: pointer;
     z-index: 2;
 }
 
@@ -78,15 +80,21 @@
     background-color: var(--rosa_claro);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .chrome img{
     width: 5rem;
     height: 5rem;
+}
+
+.chrome:hover{
+    opacity: 50%;
 }
 
 .ubuntu{
@@ -95,6 +103,7 @@
     background-color: var(--rosa);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
@@ -106,12 +115,17 @@
     height: auto;
 }
 
+.ubuntu:hover{
+    opacity: 50%;
+}
+
 .after{
     width: 8rem;
     height: 8rem;
     background-color: var(--rosa_claro);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
@@ -123,12 +137,17 @@
     height: 5rem;
 }
 
+.after:hover{
+    opacity: 50%;
+}
+
 .photoshop{
     width: 8rem;
     height: 8rem;
     background-color: var(--rosa);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
@@ -140,12 +159,17 @@
     height: 5rem;
 }
 
+.photoshop:hover{
+    opacity: 50%;
+}
+
 .word{
     width: 8rem;
     height: 8rem;
     background-color: var(--rosa);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
@@ -157,12 +181,17 @@
     height: 5rem;
 }
 
+.word:hover{
+    opacity: 50%;
+}
+
 .excel{
     width: 8rem;
     height: 8rem;
     background-color: var(--rosa_claro);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
@@ -174,12 +203,17 @@
     height: 5rem;
 }
 
+.excel:hover{
+    opacity: 50%;
+}
+
 .vscode{
     width: 16rem;
     height: 8rem;
     background-color: var(--rosa);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
@@ -196,12 +230,17 @@
     color: var(--blanco);
 }
 
+.vscode:hover{
+    opacity: 50%;
+}
+
 .illustrator{
     width: 8rem;
     height: 8rem;
     background-color: var(--rosa_claro);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
@@ -213,12 +252,17 @@
     height: 5rem;
 }
 
+.illustrator:hover{
+    opacity: 50%;
+}
+
 .spotify{
     width: 16rem;
     height: 8rem;
     background-color: var(--rosa_claro);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
@@ -233,6 +277,11 @@
 .spotify p{
     font-size: 2rem;
     color: var(--blanco);
+    cursor: pointer;
+}
+
+.spotify:hover{
+    opacity: 50%;
 }
 
 .figma{
@@ -241,6 +290,7 @@
     background-color: var(--rosa);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
@@ -252,12 +302,17 @@
     height: 5rem;
 }
 
+.figma:hover{
+    opacity: 50%;
+}
+
 .xd{
     width: 8rem;
     height: 8rem;
     background-color: var(--rosa_claro);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
@@ -269,12 +324,17 @@
     height: 5rem;
 }
 
+.xd:hover{
+    opacity: 50%;
+}
+
 .indesign{
     width: 8rem;
     height: 8rem;
     background-color: var(--rosa);
     border-radius: 1rem;
     border: solid 0.3rem var(--morado);
+    cursor: pointer;
 
     display: flex;
     justify-content: space-around;
@@ -284,4 +344,8 @@
 .indesign img{
     width: 5rem;
     height: 5rem;
+}
+
+.indesign:hover{
+    opacity: 50%;
 }

@@ -3,8 +3,7 @@
     height: 5rem;
     background-color: var(--lila);
     position: absolute;
-    display: flex;
-    align-items: center;
+    display: block;
 }
 
 .barra-arriba{
@@ -17,38 +16,52 @@
     height: 0.4rem;
     position: absolute;
     background-color: var(--morado);
-    position: absolute;
 }
 
 .divisor{
     width: 0.3rem;
     height: 3.5rem;
     border-radius: 1rem;
-    margin-left: 111rem;
     background-color: var(--morado);
     position: absolute;
+    right: 9rem;
+    bottom: 0.5rem;
 }
 
 .horayfecha{
     font-size:small;
-    width: 100%;
-    padding-right: 1rem;
-    text-align: end;
+    width: 7rem;
+    text-align: center;
     position: absolute;
+    right: 1.5rem;
+    bottom: 0.8rem;
 }
 
-.iconomenu{
-    width: 5rem;
+
+.bateria{
+    width: 2rem;
     position: absolute;
+    right: 10rem;
+    bottom: 1.2rem;
     display: flex;
-    align-items: center;
-    padding-left: 2rem;
-    z-index: 8;
-    cursor: pointer;
 }
 
-.iconomenu img{
-    width: 3.5rem;
+.bateria img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.wifi{
+    width: 2rem;
+    display: flex;
+    position: absolute;
+    right: 13.5rem;
+    bottom: 1.2rem;
+}
+
+.wifi img{
+    width: 2rem;
+    height: 2rem;
 }
 
 .barrabusqueda{
@@ -57,9 +70,11 @@
     background-color:var(--rosa_claro);
     border-radius: 4rem;
     border: solid 0.3rem var(--morado);
-    margin-left: 13rem;
     position: absolute;
+    left: 13rem;
+    bottom: 1.1rem;
     display: flex;
+    cursor: text;
 }
 
 .lupa{
@@ -73,38 +88,43 @@
 
 .lupa img{
     width: 1.5rem;
-}
-
-.wifi{
-    width: 100%;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    padding-left: 104rem;
-}
-
-.wifi img{
-    width: 2rem;
+    height: 1.5rem;
 }
 
 .archivos{
-    width: 3rem;
+    width: 3.5rem;
     position: absolute;
+    left: 7.5rem;
+    bottom: 0.9rem;
     display: flex;
     align-items: center;
-    padding-left: 7.5rem;
+    cursor: pointer;
 }
 
 .archivos img{
     width: 3.5rem;
+    height: 3rem;
 }
 
-.bateria{
-    width: 100%;
+.archivos:hover{
+    opacity: 50%;
+}
+
+.iconomenu{
+    width: 3.5rem;
     position: absolute;
-    padding-left: 108rem;
+    left: 1.5rem;
+    bottom: 0.9rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
-.bateria img{
-    width: 2rem;
+.iconomenu img{
+    width: 3.5rem;
+    height: 3rem;
+}
+
+.iconomenu:hover{
+    opacity: 50%;
 }
