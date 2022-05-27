@@ -40,3 +40,25 @@ body {
     display: flex;
     position: absolute;
 }
+
+.escritoriocarpeta{
+    width: 9rem;
+    height: auto;
+    cursor: pointer;
+
+    display: block;
+    position: absolute;
+    top: 8rem;
+    left: 4rem;
+}
+
+.escritoriocarpeta img{
+    width: 9rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.escritoriocarpeta p{
+    font-size: 1rem;
+    text-align: center;
+}
